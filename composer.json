@@ -1,0 +1,24 @@
+{
+    "name": "puzlplace/puzl-lib-test",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Puzlplace\\PuzlLibTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonam",
+            "email": "leonam@puzl.place"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
